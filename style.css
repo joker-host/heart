@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div {
+    position: relative;
+    width: 700px;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart {
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+    fill: black;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    width: 224px;
+    z-index: 100;
+    top: 43%;
+    display: none;
+}
+
+h2 {
+    position: absolute;
+    color: white;
+    z-index: 100;
+    top: 43%;
+    font-size: 30px;
+}
