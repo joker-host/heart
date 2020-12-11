@@ -18,6 +18,7 @@ body {
     width: 300px;
     cursor: pointer;
     fill: black;
+    animation: pulsar 0.1s infinite;
 }
 
 h1 {
@@ -27,6 +28,7 @@ h1 {
     z-index: 100;
     top: 43%;
     display: none;
+    animation: pulsar 0.1s infinite;
 }
 
 h2 {
@@ -35,4 +37,26 @@ h2 {
     z-index: 100;
     top: 43%;
     font-size: 30px;
+    animation: pulsar 0.1s infinite;
+}
+
+@keyframes pulsar {
+    from {
+        height: 300px;
+        width: 300px;
+        transform: rotate(0);
+        /* transform: scale(0); */
+    }
+    to {
+        height: 400px;
+        width: 400px;
+        transform: rotate(360deg);
+        /* transform: scale(3); */
+    }
+    from {
+        height: 300px;
+        width: 300px;
+        transform: rotate(0);
+        /* transform: scale(0); */
+    }
 }
